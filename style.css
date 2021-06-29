@@ -246,7 +246,7 @@ nav a {
 
 .about .about-content .left {
   width: 45%;
-  padding-left: 17vw;
+  padding-left: 17%;
 }
 
 .about .about-content .left img {
@@ -256,7 +256,7 @@ nav a {
 
 .about .about-content .right {
   width: 55%;
-  padding-right: 13vw;
+  padding-right: 10%;
 }
 
 .about .about-content .right .para {
@@ -338,6 +338,80 @@ nav a {
 .about .about-content .right p {
   font-size: 17px;
   margin: 3px 0;
+}
+
+@media screen and (max-width: 1150px) {
+  .about h2 {
+    font-size: 1.7em;
+    padding-top: 50px;
+  }
+  .about .title::after {
+    content: "Skills";
+    bottom: -18px;
+    left: 50%;
+    font-size: 20px;
+    padding: 5px;
+  }
+  .about .about-content .left {
+    padding-left: 10%;
+  }
+  .about .about-content .right {
+    padding-right: 5%;
+  }
+  .about .about-content .right p {
+    font-size: 13px;
+  }
+  .about .skills {
+    font-size: 13px;
+  }
+  .about .info{
+    font-size: 1.0em;
+    margin-top: 3vh;
+  }
+  .about .about-content .right .para {
+    font-size: 1em;
+    margin: 25px 0;
+  }
+  .about .about-content .left img {
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .about h2 {
+    font-size: 1.4em;
+    padding-top: 30px;
+  }
+  .about .title::after {
+    content: "Skills";
+    bottom: -14px;
+    left: 50%;
+    font-size: 16px;
+    padding: 5px;
+  }
+  .about .about-content .left {
+    padding-left: 3%;
+  }
+  .about .about-content .right {
+    padding-right: 1%;
+  }
+  .about .about-content .right p {
+    font-size: 10px;
+  }
+  .about .skills {
+    font-size: 10px;
+  }
+  .about .info{
+    font-size: 0.7em;
+    margin-top: 2.5vh;
+  }
+  .about .about-content .right .para {
+    font-size: 0.8em;
+    margin: 10px 0;
+  }
+  .about .about-content .left img {
+    height: 250px;
+  }
 }
 
 .projects {
