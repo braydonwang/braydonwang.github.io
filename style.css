@@ -463,6 +463,11 @@ nav a {
   color: #FDDA0D;
 }
 
+.projects .button5 {
+  border-color: #009900;
+  color: #009900;
+}
+
 .projects .button:hover {
   background-color: #9370DB;
   color: white;
@@ -480,6 +485,11 @@ nav a {
 
 .projects .button4:hover {
   background-color: #FDDA0D;
+  color: white;
+}
+
+.projects .button5:hover {
+  background-color: #009900;
   color: white;
 }
 
