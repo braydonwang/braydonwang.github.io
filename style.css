@@ -240,6 +240,18 @@ nav a {
     fill: #9AC0CD;
 }
 
+.spacer {
+  aspect-ratio: 960/120;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url('./layeredwaves.svg');
+}
+
 .line {
   border-style: solid;
   border-color: #ADD8E6;
@@ -554,7 +566,6 @@ nav a {
 .resume h2 {
   font-size: 2em;
   text-align: center;
-  padding-top: 70px;
   text-shadow: 1px 1px #4169E1;
   text-transform: uppercase;
 }
