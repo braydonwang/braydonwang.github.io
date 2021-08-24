@@ -252,6 +252,25 @@ nav a {
   background-image: url('./layeredwaves.svg');
 }
 
+.curve2 {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.curve2 svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 86px;
+    transform: rotateY(180deg);
+}
+
+.curve2 .shape-fill {
+    fill: #9AC0CD;
+}
+
 .line {
   border-style: solid;
   border-color: #ADD8E6;
