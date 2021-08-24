@@ -222,6 +222,26 @@ nav a {
   text-transform: uppercase;
 }
 
+.curve {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.curve svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 103px;
+}
+
+.curve .shape-fill {
+    fill: #9AC0CD;
+}
+
 .line {
   border-style: solid;
   border-color: #ADD8E6;
