@@ -1,3 +1,9 @@
+$("document").ready(function() {
+  setTimeout(function(){
+      $(".loader-wrapper").fadeOut("slow")
+  }, 1300);
+});
+
 let progress = document.getElementById('progressbar');
 let totalHeight = document.body.scrollHeight - window.innerHeight;
 window.onscroll = function(){
