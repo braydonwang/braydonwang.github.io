@@ -264,7 +264,6 @@ html {
     opacity: 0;
     transform: translateY(35px);
     transition: opacity 300ms var(--easing), transform 300ms var(--easing);
-    transition-delay: 1s;
   }
   100% {
     opacity: 1;
