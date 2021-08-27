@@ -993,3 +993,27 @@ nav a {
     transform: scale(1.2);
   }
 }
+
+.reveal {
+  position: relative;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.skillbar {
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: progress 1s cubic-bezier(1,0,0.5,1) forwards;
+  animation-fill-mode: forwards;
+  transition: all 1s ease;
+}
+
+.skillbar.active {
+  transform: scaleX(1);
+}
