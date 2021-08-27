@@ -630,6 +630,7 @@ nav a {
 
 .projects .content:hover {
   box-shadow: 0 0 11px rgba(138,43,226,1);
+  transform: translateY(-10px);
 }
 
 .projects .line {
