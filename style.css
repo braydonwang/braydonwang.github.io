@@ -537,22 +537,22 @@ nav a {
 }
 
 .about .java {
-  width: 80%;
+  width: 75%;
   background-color: #3F00FF;
 }
 
 .about .python {
-  width: 70%;
-  background-color: #3F00FF;
-}
-
-.about .c {
   width: 65%;
   background-color: #3F00FF;
 }
 
+.about .c {
+  width: 90%;
+  background-color: #3F00FF;
+}
+
 .about .html {
-  width: 55%;
+  width: 85%;
   background-color: #3F00FF;
 }
 
