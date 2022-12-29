@@ -782,6 +782,7 @@ nav a {
 .resume .col header.title {
   color: #0047AB;
   padding: 0px 0px 20px 30px;
+  font-size: 25px;
 }
 
 .resume .col .contents {
